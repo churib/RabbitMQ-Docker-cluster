@@ -11,6 +11,9 @@
   "vhosts": [
     {
       "name":"/"
+    },
+    {
+      "name":"/shared"
     }
   ],
   "permissions":[
