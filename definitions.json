@@ -23,6 +23,13 @@
       "configure":".*",
       "write":".*",
       "read":".*"
+    },
+    {
+      "user":"guest",
+      "vhost":"/shared",
+      "configure":".*",
+      "write":".*",
+      "read":".*"
     }
   ],
   "parameters":[],
