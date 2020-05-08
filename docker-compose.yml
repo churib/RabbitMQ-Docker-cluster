@@ -34,6 +34,7 @@ services:
       - "./definitions.json:/etc/rabbitmq/definitions.json"
     ports:
       - "5673:5672"
+      - "15673:15672"
     
   rabbit3:
     image: rabbitmq:3-management
@@ -50,6 +51,7 @@ services:
       - "./definitions.json:/etc/rabbitmq/definitions.json"
     ports:
       - "5674:5672"
+      - "15674:15672"
 
 networks:
   default:
